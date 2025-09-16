@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: frigate
+id: customstore-frigate
 category: automation
 name: Frigate
 version: "0.16.0"
@@ -43,5 +43,3 @@ path: ""
 defaultUsername: ""
 deterministicPassword: true
 dependencies: []
-submitter: ~dibref-labter
-submission: https://github.com/getumbrel/umbrel-apps/pull/843
