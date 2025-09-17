@@ -3,7 +3,7 @@ id: customstore-frigate
 category: automation
 name: Frigate
 icon: https://i.imgur.com/snFECnO.png
-version: "0.16.0"
+version: "0.16.1"
 tagline: A complete and local NVR
 description: >-
   A complete and local NVR designed for Home Assistant with AI object detection. 
@@ -19,16 +19,6 @@ description: >-
   - Your RTSP password (if needed) is the "default app password" that is displayed on Frigate's page in the app store (shown after install).
 releaseNotes: >-
   ⚠️ As usual, Frigate will attempt to update its configuration automatically. It is still recommended to back up your current config and database before upgrading.
-
-
-  This release includes several major new features and improvements:
-    - Face Recognition: Frigate can now detect and recognize faces, applying sub-labels to known faces.
-    - License Plate Recognition (LPR): Frigate can now detect and recognize license plates, saving recognized plates to tracked car objects.
-    - Viewer Role: A new role that restricts access to system features and the configuration editor.
-    - Improved Support For Object Detection Hardware: Including updates for Hailo8, ONNX & OpenVINO, and RockChip (RKNN).
-    - Camera Improvements: Including the ability to dynamically enable/disable cameras and select multiple streams per camera.
-    - UI Changes: Including a rewritten review timeline, object path plotting, and edge/point snapping in the Mask/Zone editor.
-
 
   Full release notes are available at https://github.com/blakeblackshear/frigate/releases
 developer: Blake Blackshear
